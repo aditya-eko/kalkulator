@@ -1,17 +1,18 @@
-angka=int(input("masukan angka"))
-angka2=int(input("masukkan angka yang ke2 "))
-
 def tambah():
-    return angka+angka2
+    inputan=int(input("masukan angka"))
+    inputan2=int(input("masukan angkan yang ke2"))
+    total=inputan+inputan2
+    return total
+
 
 def kurang():
-    return angka-angka2
+    inputan=int(input("masukan angka:"))
+    inputan2=int(input("masukan angka yang ke2:"))
+    total=inputan-inputan2
+    return total
 
-def kali():
-    return angka*angka2
+ 
 
-def bagi():
-    return angka/angka2
+# print(tambah())
 
-
-print(tambah())
+print(kurang())
